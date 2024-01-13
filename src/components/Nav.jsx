@@ -1,11 +1,6 @@
 import React from "react"
 
 
-// "Sobre mí",
-//         "Proyectos",
-//         "Habilidades",
-//         "Certificaciones"
-
 const Nav = () => {
 
     const Links = [

@@ -5,11 +5,11 @@ import Link from "../components/Link";
 const AboutMe = ({}) => {
     return(
         <article className="text-white space-y-4 scroll-m-11" id="aboutMe">
-            <img src="../../public/luisimg.webp" alt="Luis Ed Perfil" className="w-16 rounded-full"/>
+            <img src="/luisImg.webp" alt="Luis Ed Perfil" className="w-16 rounded-full"/>
             <div className="space-y-8">
                 <h1 className="text-5xl font-semibold">Hey, soy Luis Eduardo 🖐</h1>
                 <h2 className="text-3xl">
-                    +1 de experiencia. 
+                    +1 de experiencia.  
                     <span className="text-yellow-200"> Desarrollador Front-end y Back-End.</span>
                     <span className="text-teal-200"> Programador autodidacta.</span>
                     <span className="text-fuchsia-200"> Entusiasta en la programación.</span>
