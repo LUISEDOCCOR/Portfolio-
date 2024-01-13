@@ -4,3 +4,8 @@
 body{
     font-family: 'Onest Variable', sans-serif;
 }
+@layer base {
+    html {
+      scroll-behavior: smooth;
+    }
+  }

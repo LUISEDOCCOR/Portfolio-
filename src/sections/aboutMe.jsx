@@ -4,7 +4,7 @@ import Link from "../components/Link";
 
 const AboutMe = ({}) => {
     return(
-        <article className="text-white space-y-4">
+        <article className="text-white space-y-4 scroll-m-11" id="aboutMe">
             <img src="../../public/luisimg.webp" alt="Luis Ed Perfil" className="w-16 rounded-full"/>
             <div className="space-y-8">
                 <h1 className="text-5xl font-semibold">Hey, soy Luis Eduardo 🖐</h1>
