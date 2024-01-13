@@ -8,7 +8,7 @@ const Section = ({items, type, text, children, className}) => {
                 { children }
                 <h3 className="text-3xl font-semibold">{ text }</h3>
             </div>
-            <section className={`${className ? className : 'grid grid-cols-2 gap-8 place-items-center'} mt-16 `}>
+            <section className={`${className ? className : 'grid lg:grid-cols-2 gap-8 place-items-center'} mt-16 `}>
                 {
                     type == 'projects'  ? (
                         items.map((item, index) => [

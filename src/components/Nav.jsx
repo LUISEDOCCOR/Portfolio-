@@ -24,7 +24,7 @@ const Nav = () => {
 
    
     return(
-        <nav className=" text-white flex justify-center mt-4 font-medium">
+        <nav className=" text-white lg:flex justify-center mt-4 font-medium hidden">
             <ul className="flex gap-3 bg-black text-lg py-2 px-4 rounded-full">
                 {
                     Links.map((link, index) => (

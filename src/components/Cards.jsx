@@ -3,7 +3,7 @@ import Link from "./Link";
 
 export const CardProyects = ({item}) => {
     return (
-        <div className="overflow-hidden rounded-lg w-96 shadow-sm shadow-zinc-500 bg-zinc-700">
+        <div className="overflow-hidden rounded-lg md:w-96 shadow-sm shadow-zinc-500 bg-zinc-700">
             <div className="h-72 overflow-hidden">
                 <img className="hover:scale-110 transition-transform h-full w-full object-cover object-center" src={`/img/${item.name}.png`} alt={`${item.name}-img`} />
             </div>
@@ -35,7 +35,7 @@ export const CardSkills = ({item}) => {
 
 export const CardCertifications = ({item}) =>{
     return(
-        <div className="overflow-hidden rounded-lg w-96 shadow-sm shadow-zinc-500 bg-zinc-700 py-2">
+        <div className="overflow-hidden rounded-lg md:w-96 shadow-sm shadow-zinc-500 bg-zinc-700 py-2">
            <div className="min-h-32 w-9/12 flex justify-center items-center flex-col gap-2 mx-auto">
                 <h4 className="text-xl font-semibold text-center">{item.name}</h4>
                 <h5 className="text-md text-center">{item.text}</h5>

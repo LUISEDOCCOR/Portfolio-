@@ -6,9 +6,9 @@ const AboutMe = ({}) => {
     return(
         <article className="text-white space-y-4 scroll-m-11" id="aboutMe">
             <img src="/luisImg.webp" alt="Luis Ed Perfil" className="w-16 rounded-full"/>
-            <div className="space-y-8">
-                <h1 className="text-5xl font-semibold">Hey, soy Luis Eduardo 🖐</h1>
-                <h2 className="text-3xl">
+            <div className="lg:space-y-8 md:space-y-6 space-y-4">
+                <h1 className="lg:text-5xl md:text-4xl text-3xl font-semibold">Hey, soy Luis Eduardo 🖐</h1>
+                <h2 className="lg:text-3xl md:text-3xl text-2xl">
                     +1 de experiencia.  
                     <span className="text-yellow-200"> Desarrollador Front-end y Back-End.</span>
                     <span className="text-teal-200"> Programador autodidacta.</span>
