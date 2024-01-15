@@ -27,10 +27,10 @@ const projects = [
         'code': 'https://github.com/LUISEDOCCOR/Matematicaspage',
     },
     {   
-        'name': 'Tic Tac Toe',
-        'text': 'Implementación del clásico juego de tres en línea utilizando HTML, CSS y JavaScript.',
-        'link': 'https://tictactoegamebyjs.netlify.app/',
-        'code': 'https://github.com/LUISEDOCCOR/Tic-Tac-Toe-Js', 
+        'name': 'Weather App',
+        'text': 'Aplicación moderna y atractiva que proporciona información meteorológica.',
+        'link': 'https://weatherappreactvite.netlify.app/',
+        'code': 'https://github.com/LUISEDOCCOR/weather-app', 
     }  
 ]
 
